@@ -26,4 +26,4 @@ client.on('ready', () => console.log(`Logged in as ${client.user.tag}.`));
 
 client.on('message', (message) => antiSpam.message(message)); 
 
-client.login('ODAyNzQ0MTcxMDcyODQ3OTAz.YAzrxA.V5PsCzvsnGGLxT9e94fRpbZt9Jg');
+client.login(process.env.token);
